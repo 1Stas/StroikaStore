@@ -1,0 +1,54 @@
+html
+	include html/head
+	body.body
+		section.contact-sec-one
+			.conteiner
+				include html/header
+				.con-block
+					.con-info
+						a(class="con-info-contact", href="") Conctact
+						h2 Get In Touch
+						.link1
+							a(href="") Tel
+								p 708-790-0000
+						.link2
+							a(href="") Email
+								p sales@buildit.site
+						.link3
+							a(href="") Office
+								p 60 Manor Station St. Fairport, NY 14450
+					.con-form
+						.form
+							form( method="get" action="url")
+								fieldset
+									.form-name
+										label(for="name" id="label-name") Name<em>*</em><br>
+											input(type="text" label="name" id="name" placeholder=" Name" autocomplete="on" required)
+										label(for="email") Email<em>*</em><br>
+											input(type="email" label="email" id="email" placeholder=" sales@buildit.site" required autocomplete="on" pattern="[a-z]+@[a-z]+.[a-z]+")
+									label(for="subject") Subject <br>
+										input(type="text" label="subject" id="subject" placeholder=" Subject" required)
+									label(for="message") Message <br>
+										textarea(name="message", spellcheck="false" placeholder=" Message" required)
+									input(type="submit" value="Send message" id="submit")
+		include html/footer
+	script(src="js/app.min.js")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

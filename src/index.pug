@@ -1,0 +1,119 @@
+html
+	include html/head
+	body.body
+		section.sec-one
+			.rect
+			.conteiner
+				include html/header
+				.services
+					.services-text
+						h1 Development company
+						p Forward-thinking real estate developer,owner and investor with a reputation.
+						button.but-ser Services
+						button.but-about About the company
+					.services-img
+						.s-i-up
+							img.i1(src="../img/1.png", alt="art house")
+							img.i2(src="../img/2.png", alt="sky house")
+							img.i3(src="../img/3.png", alt="village house")
+						.s-i-down
+							img.i4(src="../img/4.png", alt="mall")
+							img.i5(src="../img/5.png", alt="house with pool")
+		section.sec-two
+			.conteiner
+				h2 Innovative Execution
+				.cards
+					div
+						.backg
+							img.pen(src="../img/pen.svg", alt="pen")
+						h3 Featured Listing
+						p Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					div
+						.backg
+							img.brac(src="../img/brackets.svg", alt="brackets")
+						h3 Available Properties
+						p Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					div
+						.backg
+							img.vol(src="../img/megaphone.svg", alt="speaker")
+						h3 In the News
+						p Lorem ipsum dolor sit amet consectetur adipisicing elit.
+		section.sec-three
+			.conteiner
+				.logo
+					.line-1
+					.logo-img
+						img(src="../img/N.svg", alt="N")
+						img(src="../img/mos.svg", alt="Mosquitall")
+						img(src="../img/li.svg", alt="Logo ipsum")
+						img(src="../img/di.svg", alt="double infinity")
+						img(src="../img/mli.svg", alt="mini Logo ipsum")
+					.line-2
+				.owner
+					.owner-img
+						img(src="../img/skyscraper.jpg", alt="skyscraper")
+					.owner-text
+						a(href="") About us
+						h2 Owner and investor with a reputation
+						p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea doloremque sunt iure, excepturi sapiente illum fugit possimus facilis voluptatum sequi atque repellendus repudiandae modi. Nam modi explicabo dignissimos provident distinctio.Fuga est velit minus, repellendus dicta unde deserunt architecto, praesentium nostrum magnam iste consequuntur autem nisi quos similique cumque quidem dolorum eaque nam dolor voluptatum facilis quae voluptas ut. Facere?
+						button Explore
+		section.sec-four
+			.conteiner
+				.owner-text
+					a(href="") Available Properties
+					h2 Featured Listing
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea doloremque sunt iure, excepturi sapiente illum fugit possimus facilis voluptatum sequi atque repellendus repudiandae modi. Nam modi explicabo dignissimos provident distinctio.Fuga est velit minus, repellendus dicta unde deserunt architecto, praesentium nostrum magnam iste consequuntur autem nisi quos similique cumque quidem dolorum eaque nam dolor voluptatum facilis quae voluptas ut. Facere?
+					button Explore
+		section.sec-five
+			.conteiner
+				.soc-text
+					a(href="") Socisals
+					h2 On Instagram
+				.soc-img
+					a(href="")
+						img(src="../img/h1.jpg", alt="")
+					a(href="")
+						img(src="../img/h2.jpg", alt="")
+					a(href="")
+						img(src="../img/h1.jpg", alt="")
+					a(href="")
+						img(src="../img/h2.jpg", alt="")
+					a(href="")
+						img(src="../img/h1.jpg", alt="")
+					a(href="")
+						img(src="../img/h2.jpg", alt="")
+		section.sec-six
+			.contact
+				.conteiner
+					.con-block
+						.con-info
+							a(href="") Conctact
+							h2 Get In Touch
+							.link1
+								a(href="") Tel
+									p 708-790-0000
+							.link2
+								a(href="") Email
+									p sales@buildit.site
+							.link3
+								a(href="") Office
+									p 60 Manor Station St. Fairport, NY 14450
+						.con-form
+							.form
+								form( method="get" action="url")
+									fieldset
+										.form-name
+											label(for="name" id="label-name") Name<em>*</em><br>
+												input(type="text" label="name" id="name" placeholder=" Name" autocomplete="on" required)
+											label(for="email") Email<em>*</em><br>
+												input(type="email" label="email" id="email" placeholder=" sales@buildit.site" required autocomplete="on" pattern="[a-z]+@[a-z]+.[a-z]+")
+										label(for="subject") Subject <br>
+											input(type="text" label="subject" id="subject" placeholder=" Subject" required)
+										label(for="message") Message <br>
+											textarea(name="message", spellcheck="false" placeholder=" Message" required)
+										input(type="submit" value="Send message" id="submit")
+		include html/footer
+
+	script(src="js/app.min.js")
+
+
